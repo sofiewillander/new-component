@@ -1,7 +1,9 @@
-import * as React from 'react';
+import * as React from "react";
 
-function COMPONENT_NAME() {
-  return <div></div>;
+export interface COMPONENT_NAMEProps {
+  children: React.ReactNode;
 }
 
-export default COMPONENT_NAME;
+export const COMPONENT_NAME = ({}: COMPONENT_NAMEProps) => {
+  return <></>;
+};
